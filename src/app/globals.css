@@ -1,0 +1,275 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --font-montserrat: var(--font-montserrat);
+  --font-roboto: var(--font-roboto);
+  --font-lato: var(--font-lato);
+  --font-poppins: var(--font-poppins);
+  --font-nunito: var(--font-nunito);
+
+  --clr-primary: #2b775d;
+  --clr-secondary: #ff4d00;
+  --clr-tertiary: #00dfaa;
+  --clr-icon-check: #00dfaa;
+  --clr-icon-check-dark: #2b775d;
+
+  --clr-heading: #13344e;
+  --clr-heading-2: #2d3e54;
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+.font-lato {
+  font-family: var(--font-lato);
+}
+.font-poppins {
+  font-family: var(--font-poppins);
+}
+.font-nunito {
+  font-family: var(--font-nunito);
+}
+
+p:not(:last-child) {
+  @apply mb-4;
+}
+:is(ul, ol).space-list li:not(:last-child) {
+  @apply mb-2;
+}
+
+body {
+  font-family: var(--font-nunito);
+}
+
+.about-text h1 {
+  @apply text-[30px] mb-4;
+  font-family: var(--font-poppins);
+}
+
+.about-text h2 {
+  @apply text-[28px] font-bold mb-8 text-(--clr-heading-2);
+  font-family: var(--font-poppins);
+}
+.about-text h2:not(:first-child) {
+  @apply mt-10;
+}
+.about-text h2::after {
+  content: "";
+  @apply block mt-4 w-full max-w-[250px] h-[2px] bg-(--clr-primary) rounded-full;
+}
+.about-text h2.listing-about-title {
+  @apply mb-2 text-[22px]!;
+}
+.about-text h2.listing-about-title::after {
+  content: none;
+}
+.about-text h3 {
+  @apply text-[23px] font-bold pt-4 mb-4 text-(--clr-heading-2);
+  font-family: var(--font-poppins);
+}
+.about-text h3:not(:first-of-type) {
+  @apply pt-8;
+}
+.about-text h4 {
+  @apply text-[18px] font-bold mb-4;
+  font-family: var(--font-poppins);
+}
+.about-text h5 {
+  @apply text-[16px] font-bold mb-4;
+  font-family: var(--font-poppins);
+}
+.about-text h6 {
+  @apply text-[15px] font-bold mb-4;
+  font-family: var(--font-poppins);
+}
+.about-text .last-text-gray p:last-child {
+  @apply text-[#6b7280];
+}
+.about-text p :is(em, i) {
+  background: #dbf6ff;
+}
+.listing-about-text p {
+  @apply text-base;
+}
+.review-snippet {
+  @apply text-[#6b7280];
+}
+
+body {
+  @apply bg-[#ffffff] text-[19px] lg:text-[20px];
+}
+
+.heading-secondary {
+  @apply text-[45px] mb-3 leading-10 lg:leading-15 text-(--clr-heading);
+}
+.heading-contractor {
+  @apply text-[22px] text-(--clr-heading-2) font-bold mb-4;
+  font-family: var(--font-poppins);
+}
+
+.button-primary {
+  @apply flex items-center gap-2 border border-(--clr-secondary) bg-(--clr-secondary) text-black py-3 md:py-1 px-3 text-[19px] lg:text-[20px] rounded font-medium;
+}
+.button-secondary {
+  @apply flex items-center justify-center gap-2 border border-(--clr-tertiary) bg-(--clr-tertiary) text-white px-1.5 text-sm rounded font-medium h-[27px] min-w-[27px];
+}
+.button-secondary-reverse {
+  @apply flex items-center justify-center gap-2 border border-white bg-[#f4f4f4] text-(--clr-tertiary) px-1.5 text-sm rounded font-bold h-[27px] min-w-[27px];
+}
+.button-pricing {
+  @apply flex items-center justify-center gap-2 border border-(--clr-icon-check-dark) bg-(--clr-icon-check-dark) text-white py-3 px-6 text-lg font-medium;
+}
+.button-border {
+  @apply flex items-center justify-center flex-col gap-1 border border-(--clr-heading-2) bg-white text-(--clr-heading-2) px-3 py-3 rounded-xl font-medium;
+}
+.button-blue-h {
+  @apply flex items-center justify-center flex-col gap-1 border border-(--clr-tertiary) bg-(--clr-tertiary) text-white px-3 py-3 rounded-xl font-medium;
+}
+.button-blue-border {
+  @apply flex items-center justify-center flex-col gap-1 border-2 border-(--clr-tertiary) bg-white text-(--clr-tertiary) px-3 py-3 rounded-xl font-bold;
+}
+.button-gradient-orange {
+  @apply cursor-pointer flex items-center justify-center gap-2 font-bold text-[22px] flex-1 bg-linear-to-r from-[#ff6828] to-[#fd4b00] text-white py-3 px-5 rounded-lg hover:shadow-lg transform hover:-translate-y-0.5 transition-all;
+}
+
+.primary-bg-gradient {
+  @apply bg-linear-to-b from-[#2b775d] via-[#2b775d] to-[#00dfaa];
+}
+
+.main-search {
+  @apply pl-5 bg-white text-black flex items-center justify-between mb-4 w-full max-w-[650px] h-[60px] rounded-full;
+}
+.main-search .search-location-wrap input {
+  @apply flex-1 text-sm rounded font-medium outline-none h-[40px] w-full;
+}
+.main-search :is(.search-location-wrap, button[type="button"]) {
+  @apply flex-1 text-sm rounded font-medium outline-none h-[40px];
+}
+
+.main-search-submit {
+  @apply flex items-center justify-center border border-(--clr-tertiary) bg-(--clr-tertiary) text-white text-xl h-[50px] w-[50px] rounded-full mr-[5px];
+}
+
+/* CookieYes */
+.cky-title {
+  display: none !important;
+}
+
+.option-card {
+  padding: 18px;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.option-card:hover {
+  border-color: #fd4b00;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1);
+}
+
+.option-card.selected {
+  border-color: #fd4b00;
+  background: linear-gradient(
+    135deg,
+    rgba(253, 75, 0, 0.1),
+    rgba(253, 75, 0, 0.1)
+  );
+}
+
+.text-input,
+.select-input {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.2s ease;
+  font-family: inherit;
+  height: auto;
+}
+
+.text-input:focus,
+.select-input:focus {
+  outline: none;
+  border-color: #fd4b00;
+}
+
+textarea.text-input {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.required {
+  color: #ef4444;
+}
+
+.optional-label {
+  font-size: 14px;
+  color: #9ca3af;
+  font-weight: normal;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.checkbox-item:hover {
+  border-color: #fd4b00;
+}
+
+.checkbox-item input[type="checkbox"] {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.checkbox-item.checked {
+  border-color: #fd4b00;
+  background: rgba(253, 75, 0, 0.05);
+}
+
+.error-message {
+  color: #ef4444;
+  font-size: 14px;
+  margin-top: 5px;
+  display: none;
+}
+
+.error-message[style*="block"] {
+  display: block !important;
+}
+
+.suggestions-list::-webkit-scrollbar-thumb {
+  background-color: #2b775d; /* your desired color */
+}
+
+.suggestions-list::-webkit-scrollbar-thumb:hover {
+  background-color: #2b775d; /* slightly darker on hover */
+}
+
+/* Firefox support */
+.suggestions-list {
+  scrollbar-color: #2b775d transparent; /* thumb | track */
+}
