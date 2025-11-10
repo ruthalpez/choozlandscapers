@@ -76,14 +76,16 @@ const Score = ({
                     className={`${scoreColor} space-y-3 cursor-pointer border-2 border-[#292c78] w-full sm:max-w-[305px] mb-5 rounded-xl px-4 py-2`}>
                     <div className="flex gap-4 items-center">
                       <div className="cursor-pointer flex-1 flex flex-col justify-center gap-0 text-[32px] text-[#292c78] font-extrabold min-h-[65px]">
-                        <span className="block text-[20px] md:hidden">Chooz Score</span>
+                        <span className="block text-[20px] md:hidden">
+                          Chooz Score
+                        </span>
                         <span className="block">{score} / 100</span>
                       </div>
                       <div>
                         {score >= 94 && (
                           <Image
                             src={BadgeBestAward}
-                            alt={`${title} has been given a Chooz Landscapers Best Award in gold badge in 2025`}
+                            alt="Chooz Landscapers 2025 Best Landscaper Award badge in gold and blue, showcasing top-rated landscaping company recognition"
                             width={90}
                             height={90}
                             priority
@@ -93,7 +95,7 @@ const Score = ({
                         {score >= 87 && score < 94 && (
                           <Image
                             src={BadgeTopAward}
-                            alt={`${title} has been given a Chooz Landscapers Top Award in silver badge in 2025`}
+                            alt="2025 Chooz Landscapers Best Landscaper Award badge with gold and blue hexagon design and ribbon banner"
                             width={90}
                             height={90}
                             priority
@@ -104,7 +106,7 @@ const Score = ({
                           <Image
                             src={BadgeVerified}
                             priority
-                            alt={`Chooz Landscapers Certified badge in 2025 for ${title}`}
+                            alt={`Chooz Landscapers Verified Badge 2025 – green hexagon certification badge for verified landscaping professionals, awarded by Chooz directory.`}
                             width={85}
                             height={85}
                             className="w-[85px] h-[85px] object-contain p-1"
@@ -117,7 +119,9 @@ const Score = ({
               )}
 
               {platform_reviews && (
-                <div id="platform_reviews" className="flex items-center justify-between gap-5">
+                <div
+                  id="platform_reviews"
+                  className="flex items-center justify-between gap-5">
                   <h3 className="py-1 mt-3 flex-1 text-[#282b77] text-[20px] md:text-[22px] font-extrabold">
                     Platform Reviews
                   </h3>
@@ -130,7 +134,9 @@ const Score = ({
               )}
 
               {review_qe && (
-                <div id="review_qe" className="flex items-center justify-between gap-5">
+                <div
+                  id="review_qe"
+                  className="flex items-center justify-between gap-5">
                   <h3 className="py-1 mt-3 flex-1 text-[#282b77] text-[20px] md:text-[22px] font-extrabold">
                     Review Quality & Engagement
                   </h3>
@@ -143,7 +149,9 @@ const Score = ({
               )}
 
               {website_dp && (
-                <div id="website_dp" className="flex items-center justify-between gap-5">
+                <div
+                  id="website_dp"
+                  className="flex items-center justify-between gap-5">
                   <h3 className="py-1 mt-3 flex-1 text-[#282b77] text-[20px] md:text-[22px]  font-extrabold">
                     Website & Digital Presence
                   </h3>
@@ -156,7 +164,9 @@ const Score = ({
               )}
 
               {business_credibility && (
-                <div id="business_credibility" className="flex items-center justify-between gap-5">
+                <div
+                  id="business_credibility"
+                  className="flex items-center justify-between gap-5">
                   <h3 className="py-1 mt-3 flex-1 text-[#282b77] text-[20px] md:text-[22px] font-extrabold">
                     Business Credibility
                   </h3>

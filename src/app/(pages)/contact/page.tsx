@@ -15,14 +15,14 @@ const ContactPage = () => {
     <main className="primary-bg-gradient">
       <Image
         src={BackgroundImage}
-        alt="Background"
+        alt="Seamless black and white pattern featuring icons of lawn mowers, trees, street lamps, pliers, tractors, houses, and landscaping trucks representing home exterior services like landscaping and HVAC maintenance."
         priority
         className="fixed top-0 left-0 w-full h-full object-cover z-0"
       />
       <div className="container xl:max-w-[1340px] mx-auto p-0 sm:py-20 relative z-10">
         <div className="h-[1200px] overflow-hidden">
           {isClient && (
-            <div className="contractor-form ml-[-60px] md:ml-0 w-[calc(100%_+_120px)] md:w-full h-full block">
+            <div className="contractor-form ml-[-60px] md:ml-0 w-[calc(100%+120px)] md:w-full h-full block">
               <iframe
                 src="https://api.leadconnectorhq.com/widget/form/1ZE875JcOQhuASWaV8zr"
                 style={{

@@ -38,28 +38,28 @@ const ScoreMethodologyPage = () => {
             <div className="flex flex-wrap items-center md:items-start justify-center my-10 gap-15 md:gap-0">
               <ImageBox
                 image={BadgeResearch.src}
-                alt="Icon showing three painting company storefronts labeled ABC Painting, Star Painting, and XYZ Painting, representing comparison of local landscapers"
+                alt="Magnifying glass highlighting a score of 40 surrounded by thumbs-up icons, charts, and review platforms like Google, Yelp, Angi, Facebook, and BBB, symbolizing Chooz Landscapers’ quality and engagement rating system based on multi-platform customer feedback"
                 heading="Research Landscapers"
                 className="w-[200px]"
               />
               <div className="hidden md:block mt-16 flex-1 border-t-2 border-black border-dashed" />
               <ImageBox
                 image={BadgeVerified.src}
-                alt="Chooz Landscapers Certified Badge for 2025"
+                alt="Chooz Landscapers Verified Badge 2025 – green hexagon certification badge for verified landscaping professionals, awarded by Chooz directory."
                 heading="Chooz Landscapers Certified"
                 className="w-[200px]"
               />
               <div className="hidden md:block mt-16 flex-1 border-t-2 border-black border-dashed" />
               <ImageBox
                 image={BadgeTopAward.src}
-                alt="Icon of a painter's tool kit inside a hexagon badge, representing an online platform to find local painting contractors"
+                alt="2025 Chooz Landscapers Best Landscaper Award badge with gold and blue hexagon design and ribbon banner"
                 heading="Top Painter Award"
                 className="w-[200px]"
               />
               <div className="hidden md:block mt-16 flex-1 border-t-2 border-black border-dashed" />
               <ImageBox
                 image={BadgeBestAward.src}
-                alt="Icon of a painter's tool kit inside a hexagon badge, representing an online platform to find local painting contractors"
+                alt="Chooz Landscapers 2025 Best Landscaper Award badge in gold and blue, showcasing top-rated landscaping company recognition"
                 heading="Best Painter Award"
                 className="w-[200px]"
               />

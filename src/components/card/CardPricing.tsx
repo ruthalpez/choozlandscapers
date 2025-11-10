@@ -35,19 +35,19 @@ const CardPricing = ({
       <div className="flex flex-wrap items-center justify-center gap-3">
         <ImageBox
           image={BadgeVerified.src}
-          alt="Chooz Landscapers Certified Badge for 2025"
+          alt="Chooz Landscapers Verified Badge 2025 – green hexagon certification badge for verified landscaping professionals, awarded by Chooz directory."
           imageClassSize="w-[70px] h-[70px]"
         />
         <div className="flex-1 border-t-2 border-black border-dashed" />
         <ImageBox
           image={BadgeTopAward.src}
-          alt="Icon of a painter's tool kit inside a hexagon badge, representing an online platform to find local painting contractors"
+          alt="2025 Chooz Landscapers Best Landscaper Award badge with gold and blue hexagon design and ribbon banner"
           imageClassSize="w-[80px] h-[80px]"
         />
         <div className="flex-1 border-t-2 border-black border-dashed" />
         <ImageBox
           image={BadgeBestAward.src}
-          alt="Icon of a painter's tool kit inside a hexagon badge, representing an online platform to find local painting contractors"
+          alt="Chooz Landscapers 2025 Best Landscaper Award badge in gold and blue, showcasing top-rated landscaping company recognition"
           imageClassSize="w-[80px] h-[80px]"
         />
       </div>

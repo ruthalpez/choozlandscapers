@@ -16,7 +16,7 @@ const ClaimPaintingContractor = () => {
     <main className="bg-[#f5faff] text-black relative">
       <Image
         src={BackgroundImage}
-        alt="Background"
+        alt="Seamless black and white pattern featuring icons of lawn mowers, trees, street lamps, pliers, tractors, houses, and landscaping trucks representing home exterior services like landscaping and HVAC maintenance."
         sizes="fill"
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       />
@@ -26,23 +26,23 @@ const ClaimPaintingContractor = () => {
         </h1>
         <ul className="max-w-2xl mx-auto flex flex-wrap items-center sm:justify-center justify-start gap-4 mb-[10px]">
           <li className="flex justify-center gap-2 text-[21px] md:text-[25px] font-medium">
-            <FaRegCheckCircle className="text-[var(--clr-icon-check)] w-[25px] h-[25px] md:w-[30px] md:h-[30px] mt-0.5 md:mt-1" />
-            <span className="w-[calc(100%_-_25px)]">
+            <FaRegCheckCircle className="text-(--clr-icon-check) w-[25px] h-[25px] md:w-[30px] md:h-[30px] mt-0.5 md:mt-1" />
+            <span className="w-[calc(100%-25px)">
               Make it easier for customers to find you
             </span>
           </li>
           <li className="flex justify-center gap-2 text-[21px] md:text-[25px] font-medium">
-            <FaRegCheckCircle className="text-[var(--clr-icon-check)] w-[25px] h-[25px] md:w-[30px] md:h-[30px] mt-0.5 md:mt-1" />
-            <span className="w-[calc(100%_-_25px)]">Get More Leads</span>
+            <FaRegCheckCircle className="text-(--clr-icon-check) w-[25px] h-[25px] md:w-[30px] md:h-[30px] mt-0.5 md:mt-1" />
+            <span className="w-[calc(100%-25px)]">Get More Leads</span>
           </li>
           <li className="flex justify-center gap-2 text-[21px] md:text-[25px] font-medium">
-            <FaRegCheckCircle className="text-[var(--clr-icon-check)] w-[25px] h-[25px] md:w-[30px] md:h-[30px] mt-0.5 md:mt-1" />
-            <span className="w-[calc(100%_-_25px)]">Completely Free</span>
+            <FaRegCheckCircle className="text-(--clr-icon-check) w-[25px] h-[25px] md:w-[30px] md:h-[30px] mt-0.5 md:mt-1" />
+            <span className="w-[calc(100%-25px)]">Completely Free</span>
           </li>
         </ul>
         <div className="h-[3200px] md:h-[2700px] overflow-hidden">
           {isClient && (
-            <div className="contractor-form ml-[-60px] md:ml-0 w-[calc(100%_+_120px)] md:w-full h-full block">
+            <div className="contractor-form ml-[-60px] md:ml-0 w-[calc(100%+120px)] md:w-full h-full block">
               <iframe
                 src="https://api.leadconnectorhq.com/widget/form/JVjrm4zYhdqPTTGriPzK"
                 style={{

@@ -6,12 +6,11 @@ import {
   detectLocationWithFallback,
   LocationResult,
 } from "@/utils/detectLocation";
-import MainImage from "@/images/background/chooz_painters_header-1.png";
+import MainImage from "@/images/background/chooz_landscapers_header-1.png";
 import BackgroundImage from "@/images/background/chooz_landscrapers_header-wallpaper.png";
 import SearchList from "./SearchList";
 import { useRouter } from "next/navigation";
 import { IoSearchOutline } from "react-icons/io5";
-import Link from "next/link";
 import { useLandscapers } from "@/context/PaintersContext";
 
 const HeroSection = () => {
@@ -135,7 +134,7 @@ const HeroSection = () => {
     <div className="min-h-[670px] primary-bg-gradient text-white relative pb-50 lg:pb-0 pt-15 lg:pt-26">
       <Image
         src={BackgroundImage}
-        alt="Background"
+        alt="Seamless black and white pattern featuring icons of lawn mowers, trees, street lamps, pliers, tractors, houses, and landscaping trucks representing home exterior services like landscaping and HVAC maintenance."
         priority
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       />
@@ -183,7 +182,7 @@ const HeroSection = () => {
           <div className="w-full lg:w-1/2 flex items-center justify-center">
             <Image
               src={MainImage}
-              alt="Smiling house painter holding a roller brush beside a residential home and branded landscapers van, representing professional house painting services"
+              alt="Smiling landscaper standing beside a residential home and branded landscapers truck and trailer, representing professional landscaping services"
               width={600}
               height={600}
               priority

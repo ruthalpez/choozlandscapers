@@ -91,11 +91,7 @@ const ContractorSidebar = ({
                           {score.score >= 94 && (
                             <Image
                               src={BadgeBestAward}
-                              alt={`${
-                                painter.title
-                              } has been given a Chooz Landscapers ${
-                                award || "Award"
-                              } in gold badge in 2025`}
+                              alt="Chooz Landscapers 2025 Best Landscaper Award badge in gold and blue, showcasing top-rated landscaping company recognition"
                               width={90}
                               height={90}
                               priority
@@ -105,11 +101,7 @@ const ContractorSidebar = ({
                           {score.score >= 87 && score.score < 94 && (
                             <Image
                               src={BadgeTopAward}
-                              alt={`${
-                                painter.title
-                              } has been given a Chooz Landscapers ${
-                                award || "Award"
-                              } in silver badge in 2025`}
+                              alt="2025 Chooz Landscapers Best Landscaper Award badge with gold and blue hexagon design and ribbon banner"
                               width={90}
                               height={90}
                               priority
@@ -121,7 +113,7 @@ const ContractorSidebar = ({
                               src={BadgeVerified}
                               priority
                               alt={
-                                "Chooz Landscapers Certified badge in 2025 for S & M Painter & Drywall Co"
+                                "Chooz Landscapers Verified Badge 2025 – green hexagon certification badge for verified landscaping professionals, awarded by Chooz directory."
                               }
                               width={85}
                               height={85}

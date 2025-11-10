@@ -78,7 +78,7 @@ const FreeDirectoryListingOffer = () => {
     <main className="primary-bg-gradient text-white">
       <Image
         src={BackgroundImage}
-        alt="Background"
+        alt="Seamless black and white pattern featuring icons of lawn mowers, trees, street lamps, pliers, tractors, houses, and landscaping trucks representing home exterior services like landscaping and HVAC maintenance."
         priority
         className="fixed top-0 left-0 w-full h-full object-cover z-0"
       />
@@ -97,7 +97,7 @@ const FreeDirectoryListingOffer = () => {
         <div className="w-[650px] mx-auto text-white mt-10 flex flex-wrap items-center justify-center gap-x-10 gap-y-5 z-10">
           <Link
             href="/premium-directory-listing-offer"
-            className="w-full bg-[#ffff00] text-[var(--clr-primary)] font-bold py-3 px-12 rounded-lg flex flex-col items-center">
+            className="w-full bg-[#ffff00] text-(--clr-primary) font-bold py-3 px-12 rounded-lg flex flex-col items-center">
             <span className="text-[30px]">Premium Listing</span>
             <span className="text-[22px] flex items-center">
               Find Out More <ArrowRight className="ml-1 size-6" />

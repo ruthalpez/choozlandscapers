@@ -7,7 +7,7 @@ import JsonLdHead from "@/components/JsonLdHead";
 import BlogCarousel from "@/components/BlogCarousel";
 
 import FloatedBallon from "@/images/floated/chooz_landscrapers_hot_air_balloon.png";
-import Thinking from "@/images/chooz_landscrapers_thinking_girl.png";
+import ThinkingGirl from "@/images/chooz_landscrapers_thinking_girl.png";
 
 import BadgeResearch from "@/images/badge/chooz_landscrapers_research_painters.png";
 import BadgeVerified from "@/images/badge/chooz_landscrapers_verified_landscrapers.png";
@@ -172,35 +172,35 @@ export default async function Home() {
           <div className="flex flex-wrap items-center md:items-start justify-center my-10 gap-15 md:gap-0">
             <ImageBox
               image={BadgeResearch.src}
-              alt="Icon showing three painting company storefronts labeled ABC Painting, Star Painting, and XYZ Painting, representing comparison of local landscapers"
+              alt="Magnifying glass highlighting a score of 40 surrounded by thumbs-up icons, charts, and review platforms like Google, Yelp, Angi, Facebook, and BBB, symbolizing Chooz Landscapers’ quality and engagement rating system based on multi-platform customer feedback"
               heading="Research Landscapers"
               className="w-[200px]"
             />
             <div className="hidden md:block mt-16 flex-1 border-t-2 border-black border-dashed" />
             <ImageBox
               image={BadgeVerified.src}
-              alt="Chooz Landscapers Certified Badge for 2025"
+              alt="Chooz Landscapers Verified Badge 2025 – green hexagon certification badge for verified landscaping professionals, awarded by Chooz directory."
               heading="Chooz Landscapers Certified"
               className="w-[200px]"
             />
             <div className="hidden md:block mt-16 flex-1 border-t-2 border-black border-dashed" />
             <ImageBox
               image={BadgeTopAward.src}
-              alt="Icon of a painter's tool kit inside a hexagon badge, representing an online platform to find local painting contractors"
+              alt="2025 Chooz Landscapers Best Landscaper Award badge with gold and blue hexagon design and ribbon banner"
               heading="Top Painter Award"
               className="w-[200px]"
             />
             <div className="hidden md:block mt-16 flex-1 border-t-2 border-black border-dashed" />
             <ImageBox
               image={BadgeBestAward.src}
-              alt="Icon of a painter's tool kit inside a hexagon badge, representing an online platform to find local painting contractors"
+              alt="Chooz Landscapers 2025 Best Landscaper Award badge in gold and blue, showcasing top-rated landscaping company recognition"
               heading="Best Painter Award"
               className="w-[200px]"
             />
           </div>
           <Image
-            src={Thinking}
-            alt="Illustration of a thoughtful person surrounded by abstract network lines and nodes, symbolizing searching and comparing local landscapers online"
+            src={ThinkingGirl}
+            alt="Illustration of a thoughtful woman surrounded by abstract decision-making paths and data nodes, representing Chooz Landscapers' smart search system for finding reliable landscaping professionals"
             width={800}
             height={800}
             className="mx-auto"
@@ -222,16 +222,16 @@ export default async function Home() {
         <div className="py-10">
           <div className="flex flex-col lg:flex-row gap-15 lg:gap-30">
             <div className="w-full lg:w-[60%]">
-              <h2 className="text-[35px] lg:text-[48px] leading-10 lg:leading-15 text-[var(--clr-heading)] font-medium font-poppins">
+              <h2 className="text-[35px] lg:text-[48px] leading-10 lg:leading-15 text-(--clr-heading) font-medium font-poppins">
                 Verified Contractors
               </h2>
-              <div className="border-b-[3px] border-[var(--clr-tertiary)] max-w-[275px] my-[30px]" />
+              <div className="border-b-[3px] border-(--clr-tertiary) max-w-[275px] my-[30px]" />
               <p>
                 Every painting company in our directory is verified before being
                 listed. After verification, we evaluate each company using our
-                Chooz Landscapers scoring system, which considers over 40 factors
-                including customer reviews, industry experience, and online
-                presence. This process helps homeowners find established
+                Chooz Landscapers scoring system, which considers over 40
+                factors including customer reviews, industry experience, and
+                online presence. This process helps homeowners find established
                 professionals they can trust. For landscapers, earning our
                 certified, top, or best painter award badges helps you stand out
                 and build credibility with potential customers.
@@ -240,7 +240,7 @@ export default async function Home() {
             <div className="w-full lg:w-[40%]">
               <Image
                 src={VerifiedContractors.src}
-                alt="Review scoring gauge displaying customer satisfaction levels from 10 to 30 based on platforms like Google, Yelp, Facebook, Angi, BBB, and Instagram"
+                alt="Customer sentiment meter showing reviews from Google, Yelp, Angi, BBB, Facebook, and Instagram with a rating range from sad to happy"
                 width={500}
                 height={500}
                 className="mr-15 ml-auto md:mr-auto w-full"
@@ -255,10 +255,10 @@ export default async function Home() {
         <div className="py-10">
           <div className="flex flex-col lg:flex-row-reverse gap-15 lg:gap-30">
             <div className="w-full lg:w-[60%]">
-              <h2 className="text-[35px] lg:text-[48px] leading-10 lg:leading-15 text-[var(--clr-heading)] font-medium font-poppins">
+              <h2 className="text-[35px] lg:text-[48px] leading-10 lg:leading-15 text-(--clr-heading) font-medium font-poppins">
                 Real Review Analysis
               </h2>
-              <div className="border-b-[3px] border-[var(--clr-tertiary)] max-w-[275px] my-[30px]" />
+              <div className="border-b-[3px] border-(--clr-tertiary) max-w-[275px] my-[30px]" />
               <p>
                 We go beyond simple star ratings by analyzing reviews across all
                 major platforms including Google, Facebook, Yelp, Angi, and
@@ -274,7 +274,7 @@ export default async function Home() {
             <div className="w-full lg:w-[40%]">
               <Image
                 src={RealReviewAnalysis.src}
-                alt="Review quality and engagement score visualized with a magnifying glass focusing on a score of 40, surrounded by icons of positive feedback, bridges, data charts, and customer reviews"
+                alt="Gauge-style review meter graphic for Chooz Landscapers showing a needle pointing toward the highest satisfaction range (30), surrounded by review platform icons including Google, Facebook, Yelp, Instagram, BBB, and Angi, with emoji faces ranging from sad to very happy reflecting sentiment scores."
                 width={500}
                 height={500}
                 className="mr-15 ml-auto md:mr-auto w-full"
@@ -289,10 +289,10 @@ export default async function Home() {
         <div className="py-10">
           <div className="flex flex-col lg:flex-row gap-15 lg:gap-30">
             <div className="w-full lg:w-[60%]">
-              <h2 className="text-[35px] lg:text-[48px] leading-10 lg:leading-15 text-[var(--clr-heading)] font-medium font-poppins">
+              <h2 className="text-[35px] lg:text-[48px] leading-10 lg:leading-15 text-(--clr-heading) font-medium font-poppins">
                 AI-Optimized Profiles
               </h2>
-              <div className="border-b-[3px] border-[var(--clr-tertiary)] max-w-[275px] my-[30px]" />
+              <div className="border-b-[3px] border-(--clr-tertiary) max-w-[275px] my-[30px]" />
               <p>
                 Your listing isn't just another directory page - it's built
                 specifically to be discovered by modern search technology. As
@@ -308,7 +308,7 @@ export default async function Home() {
             <div className="w-full lg:w-[40%]">
               <Image
                 src={AIOptimizedProfiles.src}
-                alt="Illustration of business credibility and operations dashboard with website, checklist, calendar, video content, and customer messages"
+                alt="AI-optimized landscrapers directory interface illustration showing a central web layout connected to modular content blocks, representing structured schema markup, code integration, and intelligent data flow for enhanced profile performance."
                 width={500}
                 height={500}
                 className="mr-15 ml-auto md:mr-auto w-full"
@@ -336,7 +336,7 @@ export default async function Home() {
         <div className="container xl:max-w-6xl mx-auto px-5 pt-5">
           <div className="py-10 space-y-10">
             <div className="space-y-5 text-center">
-              <h2 className="text-[35px] lg:text-[48px] leading-10 lg:leading-15 text-[var(--clr-heading)] font-medium font-poppins">
+              <h2 className="text-[35px] lg:text-[48px] leading-10 lg:leading-15 text-(--clr-heading) font-medium font-poppins">
                 Find Painting Contractors Near You
               </h2>
               <p>
@@ -368,10 +368,10 @@ export default async function Home() {
         <div className="pt-10">
           <div className="flex flex-col lg:flex-row gap-15 lg:gap-30">
             <div className="w-full lg:w-2/3">
-              <h2 className="text-[35px] lg:text-[48px] leading-10 lg:leading-15 text-[var(--clr-heading)] font-medium font-poppins">
+              <h2 className="text-[35px] lg:text-[48px] leading-10 lg:leading-15 text-(--clr-heading) font-medium font-poppins">
                 We Help You Find The Top Landscapers In Your Area
               </h2>
-              <div className="border-b-[3px] border-[var(--clr-tertiary)] max-w-[275px] my-[30px]" />
+              <div className="border-b-[3px] border-(--clr-tertiary) max-w-[275px] my-[30px]" />
               <p>
                 Part of what makes Chooz Landscapers different from other
                 directories is that we only gather the information you need to
@@ -383,7 +383,7 @@ export default async function Home() {
             <div className="w-full lg:w-1/3">
               <Image
                 src={FloatedBallon.src}
-                alt="Illustration of two people in a hot air balloon with a circular P logo, symbolizing exploration and finding local painting professionals"
+                alt="Illustration of a hot air balloon with Chooz logo and two people scouting and planning, symbolizing growth, vision, and elevated landscaping standards"
                 width={300}
                 height={300}
                 className="mr-15 ml-auto md:mr-auto w-[70px] lg:w-[120px]"
